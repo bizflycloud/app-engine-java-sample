@@ -15,7 +15,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     String index() {
-        return "hello, world";
+        return "Congratulations! Your Java Spring Boot App is running on BizflyCloud App Engine.";
     }
 
 }
